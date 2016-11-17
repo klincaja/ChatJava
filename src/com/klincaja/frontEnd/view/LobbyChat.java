@@ -1,5 +1,7 @@
 package com.klincaja.frontEnd.view;
 
+import com.klincaja.backEnd.classes.Canal;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -8,6 +10,9 @@ import java.awt.*;
  */
 public class LobbyChat extends JFrame {
 
+    private JList<Canal> canalJList;
+    private JPanel panelCanales;
+    private JPanel panelCentral;
 
     public LobbyChat (){
         super("Lobby Chat");
@@ -23,6 +28,13 @@ public class LobbyChat extends JFrame {
         this.setLocationRelativeTo(null);
         this.setLayout(new BorderLayout());
         //--------------------------
+
+        //PanelCanal
+        panelCanales = new JPanel(new GridLayout(3,1,5,5));
+        canalJList = new JList<Canal>();
+
+
+
 
     }
 }

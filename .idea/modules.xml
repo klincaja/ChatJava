@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/testReconnection.iml" filepath="$PROJECT_DIR$/testReconnection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ChatJava.iml" filepath="$PROJECT_DIR$/ChatJava.iml" />
     </modules>
   </component>
 </project>
